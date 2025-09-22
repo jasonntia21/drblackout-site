@@ -1,0 +1,55 @@
+{
+  "contactEmail": "drblackoutofficial@gmail.com",
+  "spotifyEmbedSrc": "https://open.spotify.com/embed/artist/303ESft4GOklhvhPIDsXdr?utm_source=generator",
+  "appleMusicEmbedSrc": "https://embed.music.apple.com/us/album/ethereal-2/1811094718",
+  "socials": [
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/channel/UCxVrBRV0h1Chbi-IEtecb-w"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/drblackoutt/"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/drblackoutt"
+    }
+  ],
+  "tracks": [
+    {
+      "title": "Moncler",
+      "url": "/music/moncler.mp3",
+      "cover": "/covers/moncler.jpg"
+    },
+    {
+      "title": "Thief in the Night",
+      "url": "/music/thief-in-the-night.mp3",
+      "cover": "/covers/thief.jpg"
+    },
+    {
+      "title": "Ethereal",
+      "url": "/music/ethereal.mp3",
+      "cover": "/covers/ethereal.jpg"
+    },
+    {
+      "title": "U Don't Care",
+      "url": "/music/u-dont-care.mp3",
+      "cover": "/covers/udontcare.jpg"
+    },
+    {
+      "title": "Wannabe Rapper",
+      "url": "/music/wannabe-rapper.mp3",
+      "cover": "/covers/wannabe.jpg"
+    },
+    {
+      "title": "3 Forgiatos",
+      "url": "/music/3-forgiatos.mp3",
+      "cover": "/covers/forgiatos.jpg"
+    }
+  ],
+  "youtubeVideoIds": [
+    "wZNrG9REzxo",
+    "3lkqnvLS8h4"
+  ]
+}
