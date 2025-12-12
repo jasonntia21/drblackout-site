@@ -2,11 +2,144 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dr. Blackout — Official Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <header class="nav">
+      <div class="brand" id="brandName">Portfolio</div>
+      <nav class="links">
+        <a href="#reel">Demo Reel</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="heroText">
+          <h1 id="name">Your Name</h1>
+          <p class="subtitle" id="title">Your Title</p>
+          <p class="intro" id="intro">Your intro goes here.</p>
+          <div class="ctaRow">
+            <a class="btn primary" id="demoBtn" href="#" target="_blank" rel="noreferrer">Watch Demo Reel</a>
+            <a class="btn" href="#work">View Projects</a>
+            <a class="btn" id="resumeBtnTop" href="#" target="_blank" rel="noreferrer">Download Resume</a>
+          </div>
+          <div class="chips" id="chips"></div>
+        </div>
+      </section>
+
+      <section id="reel" class="section">
+        <div class="sectionTitle">
+          <h2>Demo Reel</h2>
+          <p>A quick highlight of my strongest work in editing, pacing, audio, and visuals.</p>
+        </div>
+        <div class="card videoCard">
+          <div class="videoWrap">
+            <iframe id="reelEmbed" title="Demo Reel" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="sectionTitle">
+          <h2>Selected Work</h2>
+          <p>Featured projects and links to additional work.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3 id="capTitle">Capstone Media Theses Production</h3>
+            <p class="meta"><span id="capRole"></span> • <span id="capFormat"></span></p>
+            <p class="body" id="capDesc"></p>
+          </article>
+
+          <article class="card">
+            <h3>Additional Video Projects</h3>
+            <p class="body">
+              View my full project folder (cleaned up and curated for evaluation):
+            </p>
+            <a class="btn" id="projectsFolderBtn" href="#" target="_blank" rel="noreferrer">Open Project Folder</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="music" class="section">
+        <div class="sectionTitle">
+          <h2>Music & Audio</h2>
+          <p>Original music + audio-driven storytelling.</p>
+        </div>
+
+        <div class="card">
+          <h3 id="musicHeadline">Music & Audio Work</h3>
+          <p class="body" id="musicBody"></p>
+
+          <div class="embedWrap" id="musicEmbedWrap" style="display:none;">
+            <iframe id="musicEmbed" title="Music Embed" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+
+          <p class="hint" id="musicHint"></p>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="sectionTitle">
+          <h2>Skills</h2>
+          <p>A clear overview of what I can do across production and post.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Core Skills</h3>
+            <ul id="coreSkills"></ul>
+          </article>
+
+          <article class="card">
+            <h3>Tools</h3>
+            <ul id="tools"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="sectionTitle">
+          <h2>Resume</h2>
+          <p>Download my updated resume below.</p>
+        </div>
+
+        <div class="card">
+          <a class="btn primary" id="resumeBtn" href="#" target="_blank" rel="noreferrer">Download Resume (PDF)</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="sectionTitle">
+          <h2>Contact</h2>
+          <p>Available for internships, entry-level roles, freelance projects, and collaborations.</p>
+        </div>
+
+        <div class="card contactCard">
+          <div>
+            <div class="label">Email</div>
+            <a id="emailLink" href="#">you@email.com</a>
+          </div>
+          <div class="footerNote">
+            Built for professional evaluation — clean, direct, and easy to scan.
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span id="footerName">Portfolio</span>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
