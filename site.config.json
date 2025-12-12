@@ -1,0 +1,46 @@
+{
+  "name": "Jason Ntiamoah",
+  "title": "Media Producer | Video Editor | Cinematography | Musician",
+  "email": "drblackoutofficial@gmail.com",
+
+  "intro": "I create story-driven media that blends visual storytelling, sound design, and pacing to immerse audiences. My work spans narrative film, documentary, experimental media, and music-driven content—supporting projects from planning and shooting to editing and final delivery.",
+
+  "demoReel": {
+    "label": "Watch Demo Reel",
+    "youtubeUrl": "https://youtu.be/tUy2vnWbaJk"
+  },
+
+  "projectsFolderUrl": "https://drive.google.com/drive/folders/1CWRcPLdu2V5MNC3XeRh5xHHekVmsfPfg?usp=drive_link",
+  "resumeUrl": "https://drive.google.com/file/d/12rdJcmk9wn5SZu5tNst2k3dlRCLnb0h5/view?usp=sharing",
+
+  "capstone": {
+    "title": "Capstone Media Theses Production",
+    "role": "Assistant Editor / Production Support",
+    "format": "Experimental Short Film",
+    "description": "Capstone Media Theses Production is an experimental short film exploring the psychological experience of dissociation through repetition, uncanny imagery, and distorted sound design. Rather than relying on a traditional three-act narrative, the project immerses the audience in the sensation of derealization—blurring the line between reality and dreamlike perception.\n\nAs part of the production team, I assisted in the creative and technical execution of the film, contributing to editing, visual continuity, and sound-driven storytelling. The project emphasizes sensory experience over exposition, using minimal dialogue, abnormal visuals, and layered audio to evoke feelings of disorientation, isolation, and emotional detachment. The goal is not to explain dissociation, but to make the audience feel it viscerally.\n\nThis production was developed for professional evaluation and reflects capstone-level expectations in planning, production workflow, and post-production execution."
+  },
+
+  "music": {
+    "headline": "Music & Audio Work",
+    "body": "Music is a core part of my creative identity and influences how I edit, pace visuals, and build atmosphere through sound. I produce and release music under the artist name Dr. Blackout, and I apply the same audio sensitivity to film and video work.",
+    "embedType": "spotify",
+    "embedUrl": "<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/303ESft4GOklhvhPIDsXdr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+  },
+
+  "skills": {
+    "core": [
+      "Video Editing: narrative structure, pacing, transitions, exports",
+      "Cinematography: framing, composition, camera movement, lighting fundamentals",
+      "Audio & Sound: dialogue cleanup, ambient sound design, music integration",
+      "Production Workflow: shot planning, coverage, scheduling, collaboration",
+      "Storytelling: mood creation, experimental formats, visual narrative"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe Audition",
+      "Adobe Photoshop",
+      "DSLR/Mirrorless Cameras",
+      "External Microphones & Audio Equipment"
+    ]
+  }
+}
